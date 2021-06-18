@@ -1,0 +1,109 @@
+.home {
+  height: 100%;
+  .el-header {
+    user-select: none;
+    position: relative;
+    background-color: #33343b;
+    line-height: 60px;
+    .logo {
+      font-size: 18px;
+      font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    // 头像样式f
+    .icon-xingmingyonghumingnicheng {
+      font-size: 25px;
+      color: #fff;
+      margin-left: 30px;
+      border-radius: 50%;
+    }
+    // home样式
+    .icon-daohangshouye,
+    .icon-fenlei-copy {
+      color: #fff;
+      margin-left: 30px;
+      font-size: 20px;
+    }
+    .el-icon-bell {
+      color: #fff;
+      margin-left: 30px;
+      font-size: 20px;
+    }
+    span {
+      color: #fff;
+      margin-left: 30px;
+    }
+    .el-input {
+      width: 20%;
+      margin-top: 10px;
+      position: absolute;
+      right: 300px;
+      top: 0;
+    }
+    .loginOut {
+      width: 200px;
+      height: 60px;
+      position: absolute;
+      right: 10px;
+      top: 0;
+      .shuaxin {
+        position: absolute;
+        left: 0;
+        top: 10px;
+      }
+      .logout {
+        right: 0;
+        top: 10px;
+      }
+      i {
+        font-size: 20px;
+        color: #ffffff;
+      }
+      span {
+        margin-left: 20px;
+      }
+    }
+  }
+  .content{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-top: 20px solid #F0F0F0;
+    border-left: 20px solid #F0F0F0;
+  }
+  .btns {
+    background-color: #545c64;
+    .el-radio-button {
+      border-radius: 5px;
+      color: #fff;
+    }
+  }
+  .el-main {
+    background-color: #ffffff;
+    overflow: hidden;
+    color: #333;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    .el-breadcrumb{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+    }
+    .content{
+      height: 100%;
+      overflow-y: auto;
+      padding-bottom: 120px;
+    }
+  }
+}
+.el-container {
+  height: 100%;
+}
+.active {
+  background: #0f85ff !important;
+  border-color: #0f85ff !important;
+  color: #fff;
+}

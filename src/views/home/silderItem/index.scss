@@ -1,0 +1,18 @@
+.el-aside {
+  background: #ffffff;
+  user-select: none;
+  .el-submenu {
+    width: 200px;
+    .el-submenu__title{
+      background: #ffffff;
+    }
+  }
+
+  .el-menu-item {
+    width: 200px;
+  }
+}
+.el-aside.active {
+  width: 139px;
+  transition: all 1s;
+}

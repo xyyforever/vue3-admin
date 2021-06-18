@@ -1,0 +1,45 @@
+{
+  "name": "vue-pc",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --mode=development",
+    "test": "vite --mode=test",
+    "prod": "vite --mode=production",
+    "build:dev": "vite build --mode=development",
+    "build:test": "vite build --mode=test",
+    "build:prod": "vite build --mode=production"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.46",
+    "elui-china-area-dht": "^1.0.4",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "qs": "^6.9.6",
+    "vue": "^3.1.1",
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/clipboard": "^2.0.1",
+    "@types/node": "^15.3.0",
+    "@types/nprogress": "^0.2.0",
+    "@types/sortablejs": "^1.10.6",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "@types/js-cookie": "^2.2.6",
+    "@types/qs": "^6.9.6",
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vuedx/typecheck": "^0.6.3",
+    "@vuedx/typescript-plugin-vue": "^0.6.3",
+    "babel-plugin-import": "^1.13.3",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "typescript": "^4.2.4",
+    "vite": "^2.3.3",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  }
+}
